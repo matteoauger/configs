@@ -6,7 +6,7 @@ local opt = vim.opt
 
 opt.tabstop = 4
 opt.shiftwidth = 4
-opt.ruler = true
-
+opt.number = true
+opt.relativenumber = false
 vim.g.snacks_animate = false -- Disable animations
 vim.g.autoformat = false
