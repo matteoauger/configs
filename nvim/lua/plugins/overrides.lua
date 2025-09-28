@@ -14,10 +14,10 @@ return {
     opts = {},
   },
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
 
     dependencies = {
-      "williamboman/mason-lspconfig.nvim",
+      "mason-org/mason-lspconfig.nvim",
     },
 
     config = function()
